@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginprincipal{
+    position: relative;
+    display:flex;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.imgbox{
+    width: 50%;
+    height: 100%;
+    background-color: #025297;
+}
+
+.imgbox img{
+width: 100%;
+height: 100%;
+}
+
+
+.conteinerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.conteinerbox .form-box{
+    width: 50%;
+}
+
+.conteinerbox .form-box .ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conteinerbox .form-box .ul li{
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conteinerbox .form-box .ul li img{
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.conteinerbox .form-box .ul li img:hover{
+background: #e4e4e4;
+border-radius: 50%;
+padding: 10px;
+transition: 0.5s;
+}
+
+
+.conteinerbox .form-box h2{
+    color: #32324f;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.conteinerbox .form-box{
+    margin-bottom: 25px;
+}
+
+
+.conteinerbox .form-box .input-entrar input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    color: #32324f;
+    background-color: #e0eaf1;
+    border-radius: 25px;
+}
+
+.conteinerbox .form-box .input-entrar span{
+    font-size: 16px;
+    display: inline-block;
+    color: #32324f;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding: 3px;
+  margin-left: 12px;
+}
+
+
+.conteinerbox .form-box .input-entrar input::placeholder{
+    color: #a9adb6;
+}
+
+
+
+.conteinerbox .form-box .input-entrar input[type=submit]{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    background:#4aa4ee;;
+}
+
+
+.conteinerbox .form-box .input-entrar input[type=submit]:hover{
+    background: #025297;
+}
+
+
+.conteinerbox .form-box .input-entrar p{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.conteinerbox .form-box .input-entrar a{
+    display: flex;
+    margin-left: 5px;
+text-decoration: none;    
+color: #4aa4ee;
+
+}
+
+.conteinerbox .form-box .input-entrar a:hover{
+    color: #12125a;
+}
+
+
+
+.conteinerbox .form-box .remember{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #32324f;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.conteinerbox .form-box .remember label{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #32324f;
+    cursor: pointer;
+}
+
+.conteinerbox .form-box .remember a{
+    text-decoration: none;
+    color: #4aa4ee;
+    margin-top: 25px;
+
+}
+
+
+.conteinerbox .form-box .remember a:hover{
+    color: #12125a;
+}
+
+.conteinerbox .form-box .remember p{
+    color: #32324f
+}
+
+
+.conteinerbox .form-box h3{
+    color: #607d8b;
+    text-decoration: none;
+    margin: 40px 0 15px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVIDADE PARA CELULAR DE ATÉ 600PX */
+
+@media only screen and (max-width: 600px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .loginprincipal{
+        position: relative;
+        display:flex;
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+
+
+
+    .imgbox{
+        width: 0;
+        height: 0;
+        background-color: #025297;
+    }
+
+    .imgbox img{
+        width: 0;
+        height: 0;
+        }
+
+
+        .conteinerbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .conteinerbox .form-box{
+            width: 95%;
+        }
+
+        .conteinerbox .form-box .ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        .conteinerbox .form-box .ul li{
+            list-style: none;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 7px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .conteinerbox .form-box .ul li img{
+            width: 70px;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 50%;
+        }
+        
+        .conteinerbox .form-box .ul li img:hover{
+        background: #e4e4e4;
+        border-radius: 50%;
+        padding: 10px;
+        transition: 0.3s;
+        }
+
+
+        
+.conteinerbox .form-box h2{
+    color: #32324f;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.conteinerbox .form-box .input-entrar a{
+    display: flex;
+    margin-left: 5.8rem;
+text-decoration: none;    
+color: #4aa4ee;
+
+}
+
+.conteinerbox .form-box .input-entrar a:hover{
+    color: #12125a;
+}
+};
